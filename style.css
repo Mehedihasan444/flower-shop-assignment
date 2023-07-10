@@ -69,27 +69,31 @@
     margin-right: 20px;
 }
 
-.img-2{
+.img-2 {
     background-color: rgba(5, 151, 160, 0.15);
 }
-.img-3{
-    background-color:rgba(71, 125, 17, 0.15);
+
+.img-3 {
+    background-color: rgba(71, 125, 17, 0.15);
 }
 
-.featured-img > img {
+.featured-img>img {
     width: 310px;
     height: 328px;
 }
-.featured-section h1{
+
+.featured-section h1 {
     font-size: 40px;
     margin-bottom: 30px;
 }
-.featured-section p{
+
+.featured-section p {
     font-size: 16px;
     margin-bottom: 40px;
     color: gray;
 }
-.featured-links{
+
+.featured-links {
     display: flex;
     gap: 300px;
     padding-left: 100px;
@@ -98,7 +102,7 @@
 
 
 /* Offer section */
-.offer{
+.offer {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -107,36 +111,83 @@
     background-color: rgba(229, 84, 115, 0.10);
 }
 
-.content h1{
+.content h1 {
     font-size: 40px;
     margin-bottom: 30px;
 }
-.content p{
+
+.content p {
     font-size: 16px;
     margin-bottom: 40px;
     color: gray;
 }
 
 /* instagram section */
-.instagram{
+.instagram {
     text-align: center;
     margin: 50px 200px;
+
 }
-.instagram>h1{
+
+.instagram>h1 {
     font-size: 40px;
-    margin-bottom:30px ;
+    margin-bottom: 30px;
 }
-.instagram>p{
+
+.instagram>p {
     font-size: 16px;
     color: gray;
     margin-bottom: 40px;
 }
-.insta-imgs{
+
+.insta-imgs {
     display: flex;
     justify-content: space-around;
 
 }
-.insta-imgs>img{
+
+.insta-imgs>img {
     width: 250px;
-height: 300px;
+    height: 300px;
+}
+
+/* latest deal section */
+.latest-deal-section {
+    text-align: center;
+    width: 72%;
+    margin: auto;
+    background-image: url('Flower\ Asset/Rectangle.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:  rgba(229, 84, 115, 0.10);
+    padding: 50px 0px;
+}
+
+.latest-deal-section>h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.latest-deal-section>small {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.Subscribe {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.Subscribe>input {
+
+    height: 50px;
+    width: 600px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
 }
