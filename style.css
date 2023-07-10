@@ -3,35 +3,41 @@
     padding: 0;
     font-family: Lato;
 }
-.navigation{
+
+.navigation {
     display: flex;
     justify-content: space-around;
     align-items: center;
     top: 0;
-position: sticky;
-height: 90px;
+    position: sticky;
+    height: 90px;
+    background-color: #fff;
 }
-.navigation h2{
+
+.navigation h2 {
     font-size: 60px;
     font-weight: bold;
 }
-.menus{
+
+.menus {
     list-style: none;
     display: flex;
     justify-content: space-around;
     gap: 30px;
     font-size: 20px;
-  
+
 }
-.menus li a{
+
+.menus li a {
     text-decoration: none;
     color: #000;
 }
-.menus li :hover{
-color: red;
+
+.menus li :hover {
+    color: red;
 }
 
-.navigation img{
+.navigation img {
     width: 60px;
     margin-bottom: -10px;
 }
@@ -46,6 +52,10 @@ color: red;
     background-color: rgba(229, 84, 115, 0.10);
 }
 
+.banner-content {
+    width: 50%;
+    padding-right: 120px;
+}
 .banner-content>h1 {
     font-size: 70px;
 }
@@ -57,19 +67,14 @@ color: red;
     color: gray;
 }
 
-.banner-img {
-    position: relative;
-    height: 700px;
-    width: 400px;
-
+.banner-section img {
+    
+width: 450px;
+height: 650px;
+margin-bottom: -65px;
+margin-right: -180px;
 }
-
-.banner-img img {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-
-}
+   
 
 .banner-btn {
     padding: 20px 43px;
@@ -78,6 +83,7 @@ color: red;
     color: white;
     font-size: 20px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 
@@ -129,22 +135,37 @@ color: red;
 .featured-links {
     display: flex;
     gap: 300px;
-    /* padding-left: 100px;
-    margin-top: 10px; */
 }
-.ancor-1{
+
+.ancor-1 {
     margin-left: 110px;
     margin-top: 10px;
 }
-.ancor-2{
+
+.ancor-2 {
     margin-left: -20px;
     margin-top: 10px;
 }
-.ancor-3{
+
+.ancor-3 {
     margin-left: -40px;
     margin-top: 10px;
 }
+/* best things */
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+width: 80%;
+margin: auto;
+padding: 70px 0px;
+background-color: rgba(39, 39, 39, 0.05);
+border-radius: 10px;
 
+}
+.icon{
+    text-align: center;
+}
 
 /* Offer section */
 .offer {
@@ -154,6 +175,7 @@ color: red;
     padding: 50px 200px;
     text-align: center;
     background-color: rgba(229, 84, 115, 0.10);
+    margin-top: 70px;
 }
 
 .content h1 {
@@ -205,8 +227,9 @@ color: red;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color:  rgba(229, 84, 115, 0.10);
+    background-color: rgba(229, 84, 115, 0.10);
     padding: 50px 0px;
+    border-radius: 10px;
 }
 
 .latest-deal-section>h1 {
@@ -228,7 +251,7 @@ color: red;
     margin-top: 10px;
 }
 
-.Subscribe>input {
+.Subscribe>input[type="email"] {
 
     height: 50px;
     width: 600px;
@@ -236,27 +259,95 @@ color: red;
     border-radius: 10px;
     padding-left: 20px;
 }
+/* blogs section */
+.latest-blogs {
+    margin: 50px 0px;
+}
+.latest-blogs h1{
+    font-size: 40px;
+    text-align: center;
+}
+.blogs{
+    display: flex;
+    gap: 35px;
+    width: 80%;
+    margin: 50px 150px;
+   
+}
+.blog-card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+  
+  .blog-card img {
+    width: 170px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .blog-details {
+    padding: 10px;
+  }
+  
+  .blog-title {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .blog-summary {
+    margin-top: 10px;
+  }
+  
+  .read-more {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+.blog-btn{
+    width: 15%;
+    background-color: #fff;
+    color: #E55473;
+    border: 2px solid #E55473;
+    margin-left: 650px;
+    cursor: pointer;
+}
+.blog-btn:hover{
+    background-color: #E55473;
+    color: #fff;
+    border: 2px solid #E55473;
+}
 
 /* footer */
-footer{
+footer {
     text-align: center;
-    background-color:#000;
+    background-color: #000;
     color: white;
     margin-top: 50px;
     padding: 90px 200px;
 }
-footer>h1{
+
+footer>h1 {
     font-size: 40px;
     padding: 30px 0px;
     font-weight: bold;
 }
-footer>p{
+
+footer>p {
     font-size: 16px;
     padding-bottom: 20px;
 }
-footer>small{
+
+footer>small {
     color: gray;
 }
-span{
+
+span {
     color: red;
 }
