@@ -17,6 +17,8 @@
 .navigation h2 {
     font-size: 60px;
     font-weight: bold;
+    margin-left: -30px;
+    cursor: pointer;
 }
 
 .menus {
@@ -40,12 +42,13 @@
 .navigation img {
     width: 60px;
     margin-bottom: -10px;
+
 }
 
 /* banner section */
 .banner-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 50px 200px 0px 200px;
     height: 100vh;
@@ -56,8 +59,9 @@
     width: 50%;
     padding-right: 120px;
 }
+
 .banner-content>h1 {
-    font-size: 70px;
+    font-size: 69px;
 }
 
 .banner-content>p {
@@ -67,14 +71,14 @@
     color: gray;
 }
 
-.banner-section img {
-    
-width: 450px;
-height: 650px;
-margin-bottom: -65px;
-margin-right: -180px;
-}
+.banner-section .banner-img {
+
+    width: 450px;
+    height: 650px;
+    margin-bottom: -65px;
    
+}
+
 
 .banner-btn {
     padding: 20px 43px;
@@ -86,7 +90,31 @@ margin-right: -180px;
     cursor: pointer;
 }
 
+/* social icon section */
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 300px;
+    position: fixed;
+    left: 0;
+    top: 230px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.75);
+    border-radius: 0px 10px 10px 0px;
 
+}
+
+.social-icons ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.social-icons ul li:hover {
+    background-color: #E55473;
+    border-radius: 10px;
+}
 /* featured section */
 .featured-section {
     text-align: center;
@@ -151,19 +179,21 @@ margin-right: -180px;
     margin-left: -40px;
     margin-top: 10px;
 }
+
 /* best things */
-.icons{
+.icons {
     display: flex;
     justify-content: space-around;
     align-items: center;
-width: 80%;
-margin: auto;
-padding: 70px 0px;
-background-color: rgba(39, 39, 39, 0.05);
-border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    padding: 70px 0px;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 10px;
 
 }
-.icon{
+
+.icon {
     text-align: center;
 }
 
@@ -223,7 +253,7 @@ border-radius: 10px;
     text-align: center;
     width: 72%;
     margin: auto;
-    background-image: url('Flower\ Asset/Rectangle.png');
+    background-image: url('./Flower_Asset/Rectangle\ 9.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -231,6 +261,7 @@ border-radius: 10px;
     padding: 50px 0px;
     border-radius: 10px;
 }
+
 
 .latest-deal-section>h1 {
     font-size: 40px;
@@ -259,58 +290,62 @@ border-radius: 10px;
     border-radius: 10px;
     padding-left: 20px;
 }
+
 /* blogs section */
 .latest-blogs {
     margin: 50px 0px;
 }
-.latest-blogs h1{
+
+.latest-blogs h1 {
     font-size: 40px;
     text-align: center;
 }
-.blogs{
+
+.blogs {
     display: flex;
     gap: 35px;
     width: 80%;
     margin: 50px 150px;
-   
+
 }
+
 .blog-card {
     display: flex;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border: none;
-  }
-  
-  .blog-card img {
+}
+
+.blog-card img {
     width: 170px;
     height: 200px;
     object-fit: cover;
-  }
-  
-  .blog-details {
+}
+
+.blog-details {
     padding: 10px;
-  }
-  
-  .blog-title {
+}
+
+.blog-title {
     font-size: 20px;
     margin: 0;
-  }
-  
-  .blog-summary {
+}
+
+.blog-summary {
     margin-top: 10px;
-  }
-  
-  .read-more {
+}
+
+.read-more {
     display: inline-block;
     padding: 5px 10px;
     background-color: #007bff;
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
-  }
-  
-.blog-btn{
+}
+
+.blog-btn {
     width: 15%;
     background-color: #fff;
     color: #E55473;
@@ -318,11 +353,15 @@ border-radius: 10px;
     margin-left: 650px;
     cursor: pointer;
 }
-.blog-btn:hover{
+
+.blog-btn:hover {
     background-color: #E55473;
     color: #fff;
     border: 2px solid #E55473;
 }
+
+
+
 
 /* footer */
 footer {
