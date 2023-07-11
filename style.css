@@ -36,7 +36,7 @@
 }
 
 .menus li :hover {
-    color: red;
+    color: #E55473;
 }
 
 .navigation img {
@@ -109,10 +109,13 @@
 .social-icons ul li {
     list-style: none;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .social-icons ul li:hover {
-    background-color: #E55473;
+    /* background-color: #E55473; */
+   box-shadow: gray 3px 48px 100px 0px;
+   border: 2px solid #E55473;
     border-radius: 10px;
 }
 /* featured section */
@@ -125,15 +128,17 @@
 .featured-imgs {
     display: flex;
     justify-content: space-around;
+    column-gap: 30px;
 
+}
+.featured-box{
+    text-align: center;
 }
 
 .featured-img {
-    display: block;
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
     padding: 30px 30px 0px 30px;
-    margin-right: 20px;
 }
 
 .img-2 {
@@ -162,22 +167,33 @@
 
 .featured-links {
     display: flex;
-    gap: 300px;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding-left:80px ;
 }
 
 .ancor-1 {
-    margin-left: 110px;
     margin-top: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .ancor-2 {
-    margin-left: -20px;
+  
     margin-top: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .ancor-3 {
-    margin-left: -40px;
+
     margin-top: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* best things */
@@ -185,8 +201,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 80%;
-    margin: auto;
+    width: 71%;
+    margin-left: 211px;
     padding: 70px 0px;
     background-color: rgba(39, 39, 39, 0.05);
     border-radius: 10px;
@@ -334,12 +350,13 @@
 
 .blog-summary {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .read-more {
     display: inline-block;
-    padding: 5px 10px;
-    background-color: #007bff;
+    padding: 10px 10px;
+    background-color: #E55473;
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
@@ -388,5 +405,5 @@ footer>small {
 }
 
 span {
-    color: red;
+    color: #E55473;
 }
