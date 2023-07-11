@@ -153,6 +153,7 @@
 .featured-img>img {
     width: 250px;
     height: 328px;
+    margin-bottom: -4px;
 }
 
 .featured-section h1 {
@@ -400,6 +401,7 @@ footer>h1 {
 footer>p {
     font-size: 16px;
     padding-bottom: 20px;
+    color: #c3c2c2;
 }
 
 footer>small {
