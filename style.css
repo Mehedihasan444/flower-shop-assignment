@@ -298,12 +298,12 @@
     justify-content: center;
     gap: 20px;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .Subscribe>input[type="email"] {
 
-    height: 50px;
+    height: 63px;
     width: 600px;
     border: none;
     border-radius: 10px;
